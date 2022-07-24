@@ -18,15 +18,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="hero">
       <header>
-        <nav>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/bootstrap-solid.svg"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+              alt=""
+            />
+          </a>
           <h2 class="logo">Portfolio</h2>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="about.html">About</a>
@@ -37,6 +52,22 @@
             <li><a href="#">Contact</a></li>
           </ul>
           <a href="#" class="btn">Download CV</a>
+        </nav>
+        <nav>
+          <!-- <h2 class="logo">Portfolio</h2> -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li><a href="#">Resumen</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <!-- <a href="#" class="btn">Download CV</a> -->
         </nav>
       </header>
 
@@ -71,5 +102,6 @@
         </ul>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
